@@ -1,164 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://kit.fontawesome.com/cdea5b7eeb.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Poppins:wght@300&family=Space+Grotesk:wght@600&display=swap"
-        rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Georama&family=IBM+Plex+Sans:wght@600&family=Poppins:wght@300&family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body{
+      width:100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: space-evenly;
+      align-items:center;
+      overflow: hidden;
+      background-color: #EEF5FF;
+    }
+    .container
+    {
+      border:solid black 1px;
+      border-radius: 8px;
+      width:400px;
+      height:350px;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      background-color: #000000;
+      box-shadow: 3px 3px 2px #8CA9BC;
+  
+    }
+    .container input[type="text"],.container input[type="password"]{
+      border-radius: 8px;
+      width:350px;
+      height:48px; 
+      margin-top:10px;   
+    }
+
+    .container input[type="button"]
+    {
+      border:solid black 2px;
+      border-radius: 8px;
+      width:356px;
+      height:48px; 
+      margin-top:10px;
+    }
+    .title{
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+    }
+    #one{
+      font-size: 60px
+    }
+    #two
+    {
+      font-size: 28px;;
+    }
+    .enter{
+      border:none;
+      border-radius:10px;
+      margin-top:50%;
+      width:300px;
+      height: 50px;
+      background-color:#1877F2; 
+      }
+      #e
+      {
+        display: block;
+        text-decoration: none;
+        padding-top:9px;
+        padding-left: 90px;;
+       
+        font-size: 25px;
+        color:white;
+        
+      }
+      #username,#password{
+        background-color: #404040;
+        outline-color:#EEF5FF;
+        color:#8CA9BC;
+        font-size:14px;
+        
+      }
+      #username::placeholder{
+        color:white;
+      }
+      #password::placeholder{
+        color:white;
+      }
+      #btn{
+        background-color: #1877F2;
+        cursor: pointer;
+        font-size:18px;
+        color:white;
+        font-weight: bold;
+        
+      }
+      #one{
+        color: #FF8000;
+      }
+
+  </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="first">
-            <h2 id="title">blogpost</h2>
-            <br>
-            <a href="ProfilePage\pp.html"><span id="profilehead">My Profile</span></a>
-            <a href="ProfilePage\pp.html">
-                <img src="IMG_20220814_201757_618.jpg" id="my_profile_image">
-                
-            </a>
-            <span id="name">ArshChauhan</span>
-            <div class="profiledetails">
-                <div class="item">Rcently Watched</div>
-                <div class="item">Subscriptions</div>
-                <div class="item">Saved</div>
-                <div class="item">Favourite</div>
-                <div class="item">Settings</div>
-            </div>
-        </div>
-        <div class="second">
-            <div class="navbar">
-                <ul id="navlist">
-                    <div class="ul1">
-                        <li><a href="#" class="navele active"><span class=" sp active2">Home</span></a></li>
-                    </div>
-                    <div class="ul2">
-                        <li><a href="Explore page\explore.html" class="navele"><span class="sp">Explore</span></a></li>
-                    </div> 
-                    <div class="ul3">
-                        <li><a href="#" class="navele"><span class="sp tr">Create</span></a></li>
-                    </div>
-                    <div class="ul4">
-                        <li><a href="login.html" class="navele" id="navele4"><span class="sp">Log Out</span></a></li>
-                    </div>
-                </ul>
-            </div>
-            <div class="Anmol">
-                <div class="pp1">
-                    <img src="Anmol.jpg" id="a_img">
-                    <h4 id="ppname1">_anmol</h4>
-                    <h4 id="f1">follow</h4>
-                    <h2 id="morep1">...</h2>
-                </div>
-                <img src="1.jpeg.jpg" id="post1">
-                <div class="reactions1">
-                    <i class="fa-regular fa-heart heart1"></i>
-                    <label for="comm"><i class="fa-regular fa-comment"></i></label>
-                    <i class="fa-regular fa-bookmark bookmark1"></i>
-                    <div class="describe">
-                        The sky, a canvas of orange and purple hues, reflects beautifully on the water’s
-                        surface.#outdoorslife #outdoors #hiking #trees
-                    </div>
-                    <div class="textarea"><textarea id="comm" name="comm" placeholder="write your comment!" cols="68" rows="3"></textarea>
-                    </div>
-                </div>
+  <div class="title">
+    <span id="one">blogpost</span>
+    <span id="two">Publish your passions, your way
+      Create a unique and beautiful blog easily.</span>
+  </div>
+  <div class="container">
+    <form id="loginForm">
+      <input type="text" id="username" name="username" placeholder="Username or Email Address" autocomplete="off"><br>
+      <input type="password" id="password" name="password" placeholder="Password"><br><br>
+      <input type="button" value="login" id="btn" onclick="validate()">
+    </form>
+  </div>
 
+  <script>
+    function validate() {
+      let username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+      const form = document.querySelector("#loginForm")
+      if (username == "arsh_chauhan" && password == "arsh@123") {
+          alert("Login Successful")
+          form.innerHTML = "<div class='enter'><a href='index.html' id='e'>start posting</a></div>"
+      } else {
+        alert("Invalid username or password");
+      }
+    }
+    const container=document.querySelector(".container")
+    const button=document.querySelector("#btn")
+    button.addEventListener("click",function(){
+      container.style.borderStyle="none"
+    })
+  </script>
 
-            </div>
-            <div class="Kamakshi">
-                <div class="pp2">
-                    <img src="kamakshi.jpg" id="k_img">
-                    <h4 id="ppname2">_kamakshi</h4>
-                    <h4 id="f2">follow</h4>
-                    <h2 id="morep2">...</h2>
-                </div>
-                <img src="pexels-gabriela-palai-690806.jpg" id="ppost2">
-                <div class="reactions2">
-                    <i class="fa-regular fa-heart heart2"></i>
-                    <label for="comm2"><i class="fa-regular fa-comment"></i></label>
-                    <i class="fa-regular fa-bookmark bookmark2"></i>
-                    <div class="describe">Photography has evolved significantly since its inception, driven by
-                        technological advancements and changing societal needs. #PhotoOfTheDay #Photogram
-                    </div>
-                    <div class="textarea"><textarea id="comm2" name="comm2" placeholder="write your comment!" cols="68" rows="3"></textarea>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="third">
-
-            <div class="search-bar">
-                <label for="search_bar"><i class="fa-solid fa-magnifying-glass"></i></label>
-                <input type="text" name="search_bar" id="search_bar" placeholder="search">
-            </div>
-            <div class="trend">
-                <span id="strend">Trending Blog</span>
-            </div>
-
-            <div class="suggestions">
-                <div class="sprofile1">
-                    <img src="virat.jpg" id="simage1">
-                    <div class="pandrname1"><span id="sname1">virat.kohli</span><span id="rname1">Virat Kohli</span>
-                    </div>
-                    <span class="sf" id="sf1">follow</span>
-                </div>
-                <div class="sprofile2">
-                    <img src="carlos.webp" id="simage2">
-                    <div class="pandrname2"><span id="sname2">carlitosalcarazz</span><span id="rname2">Carlos
-                            Alcaraz</span></div>
-                </div>
-                <span class="sf" id="sf2">follow</span>
-                <div class="sprofile3">
-                    <img src="modi.jpeg" id="simage2">
-                    <div class="pandrname3"><span id="sname3">narendramodi</span><span id="rname3">Narendra Modi</span>
-                    </div>
-                </div>
-                <span class="sf" id="sf3">follow</span>
-                <div class="sprofile4">
-                    <img src="alan.png" id="simage2">
-                    <div class="pandrname4"><span id="sname4">alanwalkermusic</span><span id="rname4">Alan Walker</span>
-                    </div>
-                </div>
-                <span class="sf" id="sf4">follow</span>
-                <div class="sprofile5">
-                    <img src="sunil.jpeg" id="simage2">
-                    <div class="pandrname5"><span id="sname5">chetri_sunil11</span><span id="rname5">Sunil
-                            Chhetri</span></div>
-                </div>
-                <span class="sf" id="sf5">follow</span>
-            </div>
-        </div>
-    </div>
-    <div class="more">
-        <div class="innermore">
-            <ul class="choose">
-                <li class="items" id="choose1">report</li>
-                <li class="items" id="choose2">unfolow</li>
-                <li class="items" id="choose3">Add to favourites</li>
-                <li class="items" id="choose4">share</li>
-                <li class="items" id="choose5">Copy link</li>
-                <li class="items" id="choose6">cancel</li>
-            </ul>
-        </div>
-    </div>
-    <div class="make">
-        <div class="makeinner">
-            <input type="file" name="files" id="files">
-            <label for="files"><div class="p"><span id="cp">Create Post</span></div></label>
-            <i class="fa-solid fa-xmark" style="color: #f06f19;"></i>
-        </div>
-    </div>
-    <script src="script.js"></script>
 </body>
 
 </html>
