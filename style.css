@@ -569,7 +569,8 @@ button{
 
 }
 .search-bar{
-    border:solid #FF8000 2px;
+    border:solid #fab26b 2px;
+    outline-color:#FF8000 ;
     width:300px;
     height:33px;
     margin-top:10px;
@@ -879,3 +880,46 @@ a{
 .add{
     color:#FFD28F;
   }
+.make{
+    padding:0;
+    width:100vw;
+    height:100vh;
+    position: fixed;
+    visibility: hidden;
+}
+.makeinner{
+    border:solid white 2px;
+    width:380px;
+    height:200px;
+    position: relative;
+    left:38%;
+    top:60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#121212;
+}
+#files{
+    display: none;
+}
+.p{
+    margin-left:20px;
+    border:solid orange 2px;
+    height:50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.bg-active2{
+visibility: visible;
+}
+#cp{
+    color:white;
+    font-size:20px;
+    cursor: pointer;
+}
+.fa-xmark{
+   cursor: pointer;
+}

@@ -1,4 +1,4 @@
-prompt("Please Enter your age")
+
 const navele = document.querySelectorAll(".navele");
 navele.forEach(function(ele){
   ele.addEventListener("click",function (){
@@ -33,11 +33,24 @@ const bookmark2 = document.querySelector(".bookmark2");
 bookmark2.addEventListener("click",function(){
   bookmark2.classList.toggle("fa-solid")
 })
-
-const tr=document.querySelector(".tr")
-tr.addEventListener("click",function(){
-  alert("Under Development")
+const make=document.querySelector(".make")
+const post=document.querySelector(".tr")
+post.addEventListener("click",function(){
+    make.classList.add("bg-active2")
 })
+const cross=document.querySelector(".fa-xmark")
+cross.addEventListener("click",function(){
+  make.classList.remove("bg-active2")
+})
+
+const cp=document.querySelector("#cp")
+cp.addEventListener("click",function(){
+  alert("This feature will be added soon")
+})
+
+
+
+
 
 const plus=document.querySelector(".fa-magnifying-glass")
 plus.addEventListener("click", function(){
@@ -138,4 +151,3 @@ follow5.addEventListener("click",function (){
   }
 
 })
-  

@@ -1,0 +1,56 @@
+This project will be a clone of the web and app version of the instagram explore page
+
+Layouts 
+
+Web version
+- Header 
+    - Logo (Far Left)
+    - Search-bar (Middle)
+    - Blue login button (Far right)
+    - White sign up button (Far right)
+
+- Main
+    - Most recent h4
+    - 3 col grid
+
+No footer
+
+Mobile and tablet version
+
+- Header
+    - Searchbar (Left)
+    - Scan icon (Right)
+    - Options buttons
+
+- Main
+    - Reels
+    - 3 row grid x2
+    - 2 row grid pic and video
+    - 2 row grid 
+    - 3 row grid x2
+
+- footer
+    - home icon 
+    - search icon
+    - add icon
+    - heart icon
+    - user icon
+
+    images
+    https://images.unsplash.com/photo-1596860618905-10d5b5a6b22d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+    https://images.unsplash.com/photo-1597077409202-9601f83045ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80
+    https://images.unsplash.com/photo-1560505045-8d95e913122f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80
+    https://images.unsplash.com/photo-1596690097396-bb75a1d6c807?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80
+    https://images.unsplash.com/photo-1576174464184-fb78fe882bfd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80
+    https://images.unsplash.com/photo-1594201373342-c7d44c55ce3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80
+    https://images.unsplash.com/photo-1584063075722-aac94ceac441?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80
+    https://images.unsplash.com/photo-1597012820205-4ca307e7986c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80
+    https://images.unsplash.com/photo-1596243984207-03cf19993a04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=477&q=80
+    https://images.unsplash.com/photo-1567818735868-e71b99932e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80
+    https://images.unsplash.com/photo-1526726538690-5cbf956ae2fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80
+    https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80
+    https://images.unsplash.com/photo-1539788816080-8bdd722d8c22?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80
+    https://images.unsplash.com/photo-1565793979206-10951493332d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+    https://images.unsplash.com/photo-1453856908826-6bbeda0f8490?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=333&q=80
+    https://images.unsplash.com/photo-1464851707681-f9d5fdaccea8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=805&q=80
+    https://www.pexels.com/video/wind-turbine-on-a-field-at-sunrise-857010/    

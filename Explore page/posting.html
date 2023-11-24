@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Posting Example</title>
+</head>
+<body>
+    <h1>Simple Posting Example</h1>
+    <textarea id="postContent" placeholder="Write your post here"></textarea>
+    <button onclick="submitPost()">Post</button>
+    <div id="posts">
+        <!-- Display posts here -->
+    </div>
+
+    <script>
+        // Mock array to simulate storing posts on the server
+        let posts = [];
+
+        // Function to render posts
+        function renderPosts() {
+            const postsDiv = document.getElementById('posts');
+            postsDiv.innerHTML = '';
+
+            posts.forEach((post, index) => {
+                const postElement = document.createElement('div');
+                postElement.textContent = `${index + 1}. ${post}`;
+                postsDiv.appendChild(postElement);
+            });
+        }
+
+        // Function to submit a new post
+        function submitPost() {
+            const postContent = document.getElementById('postContent').value;
+            if (postContent) {
+                // Mock API call to add the post to the server
+                posts.push(postContent);
+                renderPosts();
+                // You would typically send this data to the server using AJAX or fetch.
+            }
+        }
+
+        // Initial rendering of posts
+        renderPosts();
+    </script>
+</body>
+</html>
