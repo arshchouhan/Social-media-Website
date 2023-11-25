@@ -37,6 +37,7 @@ const make=document.querySelector(".make")
 const post=document.querySelector(".tr")
 post.addEventListener("click",function(){
     make.classList.add("bg-active2")
+    
 })
 const cross=document.querySelector(".fa-xmark")
 cross.addEventListener("click",function(){
@@ -45,16 +46,16 @@ cross.addEventListener("click",function(){
 
 const cp=document.querySelector("#cp")
 cp.addEventListener("click",function(){
-  alert("This feature will be added soon")
+  alert("This feature will be added soon.")
 })
 
 
 
 
 
-const plus=document.querySelector(".fa-magnifying-glass")
+const plus=document.querySelector("#search_bar")
 plus.addEventListener("click", function(){
-  alert("Under Development")
+  alert("This feature will be added soon.")
 })
 
 const m1=document.querySelector("#morep1")
@@ -82,7 +83,6 @@ follow1.addEventListener("click",function (){
   {
     follow1.innerHTML="unfollow"
     alert("You started following virat.kohli")
-    follow1.style.textdecoration="none"
   }
   else
   {
@@ -151,3 +151,5 @@ follow5.addEventListener("click",function (){
   }
 
 })
+
+
